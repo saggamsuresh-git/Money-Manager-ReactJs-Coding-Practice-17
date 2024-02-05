@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.money-cards-container {
+  display: flex;
+  width: 800px;
+}
+.money-card {
+  display: flex;
+  width: 240px;
+  border-radius: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  color: #475569;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+@media screen and (max-width: 576px) {
+  .money-cards-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

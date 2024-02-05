@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.bg-container {
+  font-family: 'Roboto';
+  height: 100vh;
+  width: 800px;
+}
+.profile-container {
+  background: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  margin: 20px;
+  padding: 10px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.color {
+  color: #0b69ff;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  color: #334155;
+  padding: 10px;
+}
+.form-container {
+  border: 1px solid #cbd5e1;
+  padding: 30px;
+  width: 355px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+input {
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+}
+.dropDown {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 3px;
+}
+.add-btn {
+  padding: 8px 15px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.history-containers {
+  display: flex;
+}
+.history-items-container {
+  width: 360px;
+  margin: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 20px;
+  color: #1e293b;
+}
+.table-header-container {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.table-header {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  /* padding-left: 8px; */
+  /* border-radius: 3px; */
+}
+.table-header-cell {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    width: 370px;
+  }
+  .profile-container {
+    text-align: center;
+  }
+  .history-containers {
+    flex-direction: column;
+  }
+}
